@@ -372,11 +372,11 @@ body.preview-portrait .app[data-screen="result"] .result-sheet{left:21%;width:53
 @media(max-height:600px){.app[data-screen="result"] .result-sheet{bottom:70px;padding:14px 18px}.result-heading{margin-bottom:8px}.result-records{gap:7px 12px}.result-records div{padding:7px 10px}}
 
 /* 탐사 수첩에 그림 기록과 직접 찍은 듯한 완료 도장을 담는다. */
-.app[data-screen="result"] .result-sheet,body.preview-portrait .app[data-screen="result"] .result-sheet{left:16%;right:2%;bottom:60px;width:auto;max-width:none;min-height:clamp(340px,59vh,460px);padding:clamp(30px,4vw,54px) clamp(35px,4.5vw,65px) clamp(32px,4vw,50px) clamp(65px,7.5vw,110px);border:0;border-radius:0;background:transparent url('./assets/result-notebook.png') center / 100% 100% no-repeat;box-shadow:none}
-.result-heading{position:relative;min-height:64px;justify-content:flex-start;margin-bottom:12px;padding-left:100px;padding-right:175px}
+.app[data-screen="result"] .result-sheet,body.preview-portrait .app[data-screen="result"] .result-sheet{left:16%;right:2%;bottom:60px;width:auto;max-width:none;min-height:clamp(410px,63vh,500px);padding:clamp(30px,4vw,54px) clamp(35px,4.5vw,65px) clamp(32px,4vw,50px) clamp(65px,7.5vw,110px);border:0;border-radius:0;background:transparent url('./assets/result-notebook.png') center / 100% 100% no-repeat;box-shadow:none}
+.result-heading{position:relative;min-height:64px;justify-content:flex-start;margin-bottom:12px;padding-left:100px}
 .result-heading h2{font-size:clamp(30px,3.2vw,42px);color:#3e3151}
 .result-heading p{font-size:clamp(17px,1.7vw,21px);color:#695678}
-.result-stamp-image{position:absolute;right:65px;top:-14px;width:clamp(83px,9vw,120px);height:auto;transform:rotate(10deg);filter:drop-shadow(0 2px 1px #a15d3b33)}
+.result-stamp-image{position:absolute;right:23%;bottom:8%;width:clamp(110px,12vw,155px);height:auto;transform:rotate(10deg);filter:drop-shadow(0 2px 1px #a15d3b33)}
 .result-records{gap:9px 12px}
 .result-records>.result-record{display:flex;align-items:center;gap:10px;min-height:76px;padding:7px;background:#fffaf0d9;border:1px solid #d8c7a6;border-radius:10px}
 .result-record img{flex:none;width:clamp(66px,7.5vw,94px);height:64px;object-fit:cover;border-radius:7px}
@@ -384,4 +384,4 @@ body.preview-portrait .app[data-screen="result"] .result-sheet{left:21%;width:53
 .result-record span{min-width:0}
 .result-records dt{font-size:clamp(15px,1.45vw,18px);color:#765279}
 .result-records dd{font-size:clamp(17px,1.7vw,22px);line-height:1.25;color:#302941}
-@media(max-height:600px){.app[data-screen="result"] .result-sheet{bottom:53px;min-height:350px;padding:30px 43px 34px 75px}.result-heading{min-height:54px;margin-bottom:7px}.result-stamp-image{width:85px;top:-9px}.result-records{gap:6px 10px}.result-records>.result-record{min-height:70px;padding:5px}.result-record img{width:72px;height:59px}}
+@media(max-height:600px){.app[data-screen="result"] .result-sheet{bottom:53px;min-height:410px;padding:30px 43px 34px 75px}.result-heading{min-height:54px;margin-bottom:7px}.result-stamp-image{width:112px;bottom:8%;right:23%}.result-records{gap:6px 10px}.result-records>.result-record{min-height:70px;padding:5px}.result-record img{width:72px;height:59px}}

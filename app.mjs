@@ -112,11 +112,11 @@ function result() {
   const improvement=lesson.improvements.filter(x=>state.improvements.includes(x.id)).map(x=>x.title).join(', ');
   const residentImage=resident ? 'resident-'+resident.id+'.webp' : 'resident-family.webp';
   const record=(label,value,image)=>'<div class="result-record"><img src="./assets/'+image+'" alt=""><span><dt>'+label+'</dt><dd>'+esc(value)+'</dd></span></div>';
-  const sheet='<section class="result-sheet" aria-labelledby="result-title"><div class="result-heading"><div><h2 id="result-title">나의 탐사 수첩</h2><p>우리 동네를 살펴본 나의 기록</p></div><img class="result-stamp-image" src="./assets/result-stamp.png" alt="탐사 완료"></div><dl class="result-records">'+
+  const sheet='<section class="result-sheet" aria-labelledby="result-title"><div class="result-heading"><div><h2 id="result-title">나의 탐사 수첩</h2><p>우리 동네를 살펴본 나의 기록</p></div></div><dl class="result-records">'+
     record('살펴본 장소',place,'01-neighborhood.png')+
     record('들은 이야기',(resident ? resident.name : '')+'의 공원 이야기',residentImage)+
     record('공원에서 본 것','나무와 쉴 자리, 길가의 쓰레기','evidence-seen.webp')+
-    record('내가 고른 방법',improvement,'08-improvement-after.png')+'</dl></section>';
+    record('내가 고른 방법',improvement,'08-improvement-after.png')+'</dl><img class="result-stamp-image" src="./assets/result-stamp.png" alt="탐사 완료"></section>';
   return sceneVisual('result')+masc()+sheet+floatingActions('','','처음부터 다시','RESTART');
 }
 const renderers={cover,town,requests,research,improve,quiz,result};
