@@ -376,7 +376,7 @@ body.preview-portrait .app[data-screen="result"] .result-sheet{left:21%;width:53
 .result-heading{position:relative;min-height:64px;justify-content:flex-start;margin-bottom:12px;padding-left:100px}
 .result-heading h2{font-size:clamp(30px,3.2vw,42px);color:#3e3151}
 .result-heading p{font-size:clamp(17px,1.7vw,21px);color:#695678}
-.result-stamp-image{position:absolute;left:50%;right:auto;bottom:3%;width:clamp(165px,19vw,210px);height:auto;transform:translateX(-50%) rotate(10deg);filter:drop-shadow(0 2px 1px #a15d3b33)}
+.result-stamp-image{position:absolute;left:50%;right:auto;bottom:8%;width:clamp(165px,19vw,210px);height:auto;transform:translateX(-50%) rotate(10deg);filter:drop-shadow(0 2px 1px #a15d3b33)}
 .result-records{gap:9px 12px}
 .result-records>.result-record{display:flex;align-items:center;gap:10px;min-height:76px;padding:7px;background:#fffaf0d9;border:1px solid #d8c7a6;border-radius:10px}
 .result-record img{flex:none;width:clamp(66px,7.5vw,94px);height:64px;object-fit:cover;border-radius:7px}
@@ -384,4 +384,4 @@ body.preview-portrait .app[data-screen="result"] .result-sheet{left:21%;width:53
 .result-record span{min-width:0}
 .result-records dt{font-size:clamp(15px,1.45vw,18px);color:#765279}
 .result-records dd{font-size:clamp(17px,1.7vw,22px);line-height:1.25;color:#302941}
-@media(max-height:600px){.app[data-screen="result"] .result-sheet{bottom:53px;min-height:435px;padding:30px 43px 34px 75px}.result-heading{min-height:54px;margin-bottom:7px}.result-stamp-image{left:50%;right:auto;width:165px;bottom:3%}.result-records{gap:6px 10px}.result-records>.result-record{min-height:70px;padding:5px}.result-record img{width:72px;height:59px}}
+@media(max-height:600px){.app[data-screen="result"] .result-sheet{bottom:53px;min-height:435px;padding:30px 43px 34px 75px}.result-heading{min-height:54px;margin-bottom:7px}.result-stamp-image{left:50%;right:auto;width:165px;bottom:8%}.result-records{gap:6px 10px}.result-records>.result-record{min-height:64px;padding:5px}.result-record img{width:72px;height:54px}}
