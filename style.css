@@ -385,3 +385,9 @@ body.preview-portrait .app[data-screen="result"] .result-sheet{left:21%;width:53
 .result-records dt{font-size:clamp(15px,1.45vw,18px);color:#765279}
 .result-records dd{font-size:clamp(17px,1.7vw,22px);line-height:1.25;color:#302941}
 @media(max-height:600px){.app[data-screen="result"] .result-sheet{bottom:53px;min-height:435px;padding:30px 43px 34px 75px}.result-heading{min-height:54px;margin-bottom:7px}.result-stamp-image{left:50%;right:auto;width:165px;bottom:8%}.result-records{gap:6px 10px}.result-records>.result-record{min-height:64px;padding:5px}.result-record img{width:72px;height:54px}}
+
+/* 세 주민 대화의 인물·말풍선·이동 버튼을 남색 대화 영역에 맞춘다. */
+.app[data-screen="requests"] .resident-speaker,body.preview-portrait .app[data-screen="requests"] .resident-speaker{left:11%;right:auto;bottom:5%;width:clamp(165px,19vw,220px);height:min(30vh,220px)}
+.app[data-screen="requests"] .speech-bubble,body.preview-portrait .app[data-screen="requests"] .speech-bubble{left:27%;width:44%;bottom:5%;padding:8px 15px}
+.app[data-screen="requests"] .speech-bubble strong,.app[data-screen="requests"] .speech-bubble p{font-size:clamp(20px,2vw,24px);line-height:1.25}
+.app[data-screen="requests"] .floating-actions,body.preview-portrait .app[data-screen="requests"] .floating-actions{bottom:5%}
